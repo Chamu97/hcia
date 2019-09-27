@@ -1,0 +1,130 @@
+.king-test-wrapper .king-testimonials-thumbnail {
+    margin: 0px 0px 15px;
+}
+.king-test-wrapper .king-testimonials-title {
+    text-align: center;
+    margin: 25px 15px 3px;
+    font-size: 24px;
+    line-height: 1;
+}
+.king-test-wrapper .king-testimonials-carousel-thumbnail {
+    max-width: 35%;
+    float: left;
+    margin-right: 20px;
+}
+.king-test-wrapper .king-testimonials-carousel-thumbnail img {
+    border-radius: 0;
+    display: block;
+    margin-right: 20px;
+}
+.king-test-wrapper .king-testimonials-carousel-context {
+    overflow: hidden;
+}
+.king-test-wrapper .king-testimonials-name {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #000000;
+    font-weight: 400;
+}
+.king-test-wrapper span {
+    font-size: 11px;
+    margin-left: 10px;
+    color: #aaa;
+    font-family: Georgia, Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+.king-test-wrapper {
+    position: relative;
+    margin: 30px auto;
+    padding: 0;
+    width: 100%;
+    *zoom: 1;
+}
+.king-test-wrapper .slide {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+.king-test-wrapper .bx-viewport {
+    padding: 10px;
+    margin-left: 0;
+    z-index: 1;
+    width: 100%;
+}
+.king-test-wrapper .bx-pager,
+.king-test-wrapper .bx-controls-auto {
+    position: absolute;
+    display: none;
+    bottom: -30px;
+    width: 100%;
+}
+.king-test-wrapper .bx-loading {
+    min-height: 50px;
+    background: url(../images/bx_loader.gif) center center no-repeat #fff;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+}
+.king-test-wrapper .bx-pager {
+    text-align: center;
+    font-size: .85em;
+    font-weight: bold;
+    color: #666;
+    padding-top: 20px;
+}
+.king-test-wrapper .bx-pager .bx-pager-item,
+.king-test-wrapper .bx-controls-auto .bx-controls-auto-item {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+}
+.king-test-wrapper .bx-pager.bx-default-pager a {
+    background: #666;
+    text-indent: -9999px;
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    outline: 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.king-test-wrapper .bx-pager.bx-default-pager a:hover,
+.king-test-wrapper .bx-pager.bx-default-pager a.active {
+    background: #000;
+}
+.king-test-wrapper .testi-next {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    border-left: 1px solid #ddd;
+    height: 30px;
+    cursor: pointer;
+    background: #ED3131 url(../images/caousel-next.png) no-repeat 0 0;
+}
+.king-test-wrapper .testi-prev {
+    position: absolute;
+    top: 0px;
+    right: 30px;
+    border-right: 1px solid #ddd;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background: #ED3131 url(../images/caousel-prev.png) no-repeat 0 0;
+}
+.king-test-wrapper .kingtest-controls-direction a {
+    position: absolute;
+    top: 0;
+    margin-top: 0;
+    margin-right: 0px;
+    outline: 0;
+    width: 30px;
+    height: 30px;
+    text-indent: -9999px;
+    z-index: 9999;
+}

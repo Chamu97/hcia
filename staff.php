@@ -34,142 +34,98 @@
   <div id="all">
     <div id="content">
 
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3"></div>
-          <div class="col-md-6">
-            <!-- Card -->
-            <div class="card testimonial-card">
-
-              <!-- Background color -->
-              <div class="card-up indigo lighten-1"></div>
-
-              <!-- Avatar -->
-              <div class="avatar mx-auto white">
-                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle" alt="woman avatar">
-              </div>
-
-              <!-- Content -->
-              <div class="card-body">
-                <!-- Name -->
-                <h4 class="card-title">Anna Doe</h4>
-                <hr>
-                <!-- Quotation -->
-                <p><i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
-              </div>
-
-            </div>
-          </div>
-
-        </div></div>
-        <!-- Card -->
-        <hr>
-        <div id="hot">
+      <div id="hot">
+        <div class="box py-4">
           <div class="container">
-            <div class="product-slider owl-carousel owl-theme">
-              <div class="item">
-                <div class="product" style="width:300px;">
-                  <div class="card testimonial-card">
-
-                    <!-- Background color -->
-                    <div class="card-up indigo lighten-1"></div>
-
-                    <!-- Content -->
-                    <div class="card-body">
-                      <!-- Name -->
-                      <h4 class="card-title">Anna Doe</h4>
-                      <hr>
-                      <!-- Quotation -->
-                      <p><i class="fas fa-quote-left"></i>During his tenure in the office, he inaugurated the first ever Diploma program in Psychology and Counselling in collaboration with the National University, Galway, Ireland. He also took the initiative to begin Diploma courses in Hotel Management and Hospitality. Further, several other diploma programmers in Finance and Management, Teacher Training, Plantation and Agriculture were also launched under his guidance. Shifting of the Engineering Faculty to the present premises at Kotahena and the opening of the Wadduwa branch of Aquinas College of Higher Studies are some noteworthy events that took place during the period of Very Rev. Fr. Placidus De Silva. He also took the initiative to build the Diamond Jubilee Wing in 2014.  </p>
-                    </div>
-
-                  </div>
-                </div>
-                <!-- /.product-->
+            <div class="row">
+              <div class="col-md-12">
+                <h2 class="mb-0">Academic Staff</h2>
               </div>
-
-              <div class="item">
-                <div class="product" style="width:300px;">
-                  <div class="card testimonial-card">
-
-                    <!-- Background color -->
-                    <div class="card-up indigo lighten-1"></div>
-
-                    <!-- Content -->
-                    <div class="card-body">
-                      <!-- Name -->
-                      <h4 class="card-title">Anna Doe</h4>
-                      <hr>
-                      <!-- Quotation -->
-                      <p><i class="fas fa-quote-left"></i>During his tenure in the office, he inaugurated the first ever Diploma program in Psychology and Counselling in collaboration with the National University, Galway, Ireland. He also took the initiative to begin Diploma courses in Hotel Management and Hospitality. Further, several other diploma programmers in Finance and Management, Teacher Training, Plantation and Agriculture were also launched under his guidance. Shifting of the Engineering Faculty to the present premises at Kotahena and the opening of the Wadduwa branch of Aquinas College of Higher Studies are some noteworthy events that took place during the period of Very Rev. Fr. Placidus De Silva. He also took the initiative to build the Diamond Jubilee Wing in 2014.  </p>
-                    </div>
-
-                  </div>
-                </div>
-                <!-- /.product-->
-              </div>
-
-              <div class="item">
-                <div class="products">
-                  <div class="card testimonial-card">
-
-                    <!-- Background color -->
-                    <div class="card-up indigo lighten-1"></div>
-
-                    <!-- Content -->
-                    <div class="card-body">
-                      <!-- Name -->
-                      <h4 class="card-title">Anna Doe</h4>
-                      <hr>
-                      <!-- Quotation -->
-                      <p><i class="fas fa-quote-left"></i>During his tenure in the office, he inaugurated the first ever Diploma program in Psychology and Counselling in collaboration with the National University, Galway, Ireland. He also took the initiative to begin Diploma courses in Hotel Management and Hospitality. Further, several other diploma programmers in Finance and Management, Teacher Training, Plantation and Agriculture were also launched under his guidance. Shifting of the Engineering Faculty to the present premises at Kotahena and the opening of the Wadduwa branch of Aquinas College of Higher Studies are some noteworthy events that took place during the period of Very Rev. Fr. Placidus De Silva. He also took the initiative to build the Diamond Jubilee Wing in 2014.  </p>
-                    </div>
-
-                  </div>
-                </div>
-                <!-- /.product-->
-              </div>
-
-              <!-- /.product-slider-->
             </div>
-            <!-- /.container-->
           </div>
-          <!-- /#hot-->
-          <!-- *** HOT END ***-->
         </div>
+        <div class="container" style="padding-left: 100px;">
+          <div class="row">
 
-        <!--
+            <ul class="list-unstyled">
+              <div class="col-md-10" style="border: solid 1px #eee;">
+                <li class="media my-2">
+                  <img class="mr-4 rounded-circle" src="img/man.png" style="width: 150px;">
+                  <div class="media-body">
+                    <h5 class="mt-3 mb-1">List-based media object</h5>
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel mk bcffngfkgcfkgfkgkgfketus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                    <br><br>  <a href="profile.php" class="btn btn-primary">View Profile</a>
+                  </div>
+                </li>
+              </div>
+              <br>
+              <div class="col-md-10" style="border: solid 1px #eee;">
+                <li class="media my-2">
+                  <img class="mr-4 rounded-circle" src="img/fe.jpg" style="width: 150px;">
+                  <div class="media-body">
+                    <h5 class="mt-3 mb-1">List-based media object</h5>
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel mk bcffngfkgcfkgfkgkgfketus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                    <br><br>  <a href="profile.php" class="btn btn-primary">View Profile</a>
+                  </div>
+                </li>
+              </div>
+              <br>
+              <div class="col-md-10" style="border: solid 1px #eee;">
+                <li class="media my-2">
+                  <img class="mr-4 rounded-circle" src="img/man.png" style="width: 150px;">
+                  <div class="media-body">
+                    <h5 class="mt-3 mb-1">List-based media object</h5>
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel mk bcffngfkgcfkgfkgkgfketus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                    <br><br>  <a href="profile.php" class="btn btn-primary">View Profile</a>
+                  </div>
+                </li>
+              </div>
+              <br>
+              <div class="col-md-10" style="border: solid 1px #eee;">
+                <li class="media my-2">
+                  <img class="mr-4 rounded-circle" src="img/fe.jpg" style="width: 150px;">
+                  <div class="media-body">
+                    <h5 class="mt-3 mb-1">List-based media object</h5>
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel mk bcffngfkgcfkgfkgkgfketus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                    <br><br>  <a href="profile.php" class="btn btn-primary">View Profile</a>
+                  </div>
+                </li>
+              </div>
+              <br>
+            </ul>
+          </div>
 
 
-        <nav aria-label="Page navigation example">
-        <ul class="pagination justify-content-center">
-        <li class="page-item disabled">
-        <a class="page-link" href="#" tabindex="-1">Previous</a>
-      </li>
-      <li class="page-item"><a class="page-link" href="#">1</a></li>
-      <li class="page-item active">
-      <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
-    </li>
-    <li class="page-item"><a class="page-link" href="#">3</a></li>
-    <li class="page-item">
-    <a class="page-link" href="#">Next</a>
-  </li>
-</ul>
-</nav>
 
-</div>
+          <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+              <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1">Previous</a>
+              </li>
 
-</div>-->
+              <li class="page-item active">
+                <a class="page-link" href="#">1 <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+              </li>
+            </ul>
+          </nav>
 
-<!-- Footer -->
-<?php include 'include/footer.php'; ?>
+        </div>
+      </div>
 
-<!-- JavaScript files-->
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
-<script src="vendor/owl.carousel/owl.carousel.min.js"></script>
-<script src="vendor/owl.carousel2.thumbs/owl.carousel2.thumbs.js"></script>
-<script src="js/front.js"></script>
-</body>
-</html>
+      <!-- Footer -->
+      <?php include 'include/footer.php'; ?>
+
+      <!-- JavaScript files-->
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+      <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+      <script src="vendor/owl.carousel2.thumbs/owl.carousel2.thumbs.js"></script>
+      <script src="js/front.js"></script>
+    </body>
+    </html>

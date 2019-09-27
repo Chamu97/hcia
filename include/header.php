@@ -22,8 +22,9 @@
                     <h5>ABOUT</h5>
                     <ul class="list-unstyled mb-3">
                       <li class="nav-item"><a href="#" class="nav-link">Vision & Mission</a></li>
+                      <li class="nav-item"><a href="rectors.php" class="nav-link">Rectors</a></li>
                       <li class="nav-item"><a href="staff.php" class="nav-link">Academic Staff</a></li>
-                      <li class="nav-item"><a href="#" class="nav-link">History</a></li>
+                      <li class="nav-item"><a href="history.php" class="nav-link">History</a></li>
                     </ul>
                   </div>
                   <div class="col-md-6 col-lg-3">

@@ -142,7 +142,7 @@
     <div class="container">
       <div class="col-md-12">
         <h3 class="text-uppercase">Aquinas Research Symposium - 2020</h3>
-        <p class="lead mb-0"><a href="https://www.aquinas.lk/symposium/">Click Here...!</a></p>
+        <p class="lead mb-0"><a href="symposium _ Aquinas College of Higher Studies.php">Click Here...!</a></p>
       </div>
     </div>
   </div>
