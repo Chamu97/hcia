@@ -1,0 +1,12 @@
+/* your styles go here */
+#content .products {
+  background: #fff;
+  border: solid 1px #e6e6e6;
+  margin-bottom: 30px;
+  width: 300px;
+  /* entire container, keeps perspective */
+  /* flip speed goes here */
+  /* hide back of pane during swap */
+  /*  UPDATED! front pane, placed above back */
+  /* back, initially hidden pane */
+}
