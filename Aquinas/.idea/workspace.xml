@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fa3346f8-94f8-4754-9e8a-7b39e9042ebe" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1QjbUpEb9uWJ3t4LCy2lz3n9dYc" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HCI" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="AddCourseMaterials.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Aquinas/AddCourseMaterials.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.AddCourseMaterials.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fa3346f8-94f8-4754-9e8a-7b39e9042ebe" name="Default Changelist" comment="" />
+      <created>1568282200424</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568282200424</updated>
+      <workItem from="1568282206233" duration="407000" />
+      <workItem from="1568283157020" duration="1791000" />
+      <workItem from="1568286985751" duration="9268000" />
+      <workItem from="1568375814597" duration="12771000" />
+      <workItem from="1568390540840" duration="2534000" />
+      <workItem from="1568393788974" duration="12911000" />
+      <workItem from="1568625641463" duration="367000" />
+      <workItem from="1568883286736" duration="2007000" />
+      <workItem from="1568907504694" duration="2300000" />
+      <workItem from="1568911514860" duration="6921000" />
+      <workItem from="1568963693824" duration="3348000" />
+      <workItem from="1568972894142" duration="5225000" />
+      <workItem from="1569064973234" duration="11437000" />
+      <workItem from="1569580260382" duration="891000" />
+      <workItem from="1569582778219" duration="3190000" />
+      <workItem from="1569591696413" duration="6041000" />
+      <workItem from="1569640873357" duration="6009000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

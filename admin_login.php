@@ -33,7 +33,7 @@
 
 				</form>
 				<p>
-					<a href="login.php">Lecturer login</a>
+					<a href="Aquinas/Main.php">Lecturer login</a>
 				</p>
 				<p>
 					<a href="login.php">User login</a>
