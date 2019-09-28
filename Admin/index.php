@@ -83,7 +83,7 @@
                      </li>
                      <li><a href="index.php" style="color: #a4b2a8;"><i class="notika-icon notika-house"></i> Home</a>
                      </li>
-                     <li><a href="lecturers.php" style="color: #a4b2a8;"><i class="notika-icon notika-edit"></i> Lecturers' Details</a>
+                     <li><a href="lecturers.php" style="color: #a4b2a8;"><i class="notika-icon notika-edit"></i> Academic Staff Details</a>
                      </li>
                  </ul>
                  <div class="tab-content custom-menu-content">

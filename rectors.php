@@ -220,6 +220,7 @@
       <div class="modal-body">
         <h5><b>Ph.d.(Cantab), B.Sc. (Hons) Sociology (London), MA/Dip in Sociology (Colombo) , Ph.d (Cantab)</b></h5>
 
+<hr><h4 style="color:#429244;">CAREER SUMMARY</h4>
         <p> During his tenure in the office, he inaugurated the first ever Diploma program in Psychology and Counselling in collaboration with the National University, Galway, Ireland. He also took the initiative to begin Diploma courses in Hotel Management and Hospitality. Further, several other diploma programmers in Finance and Management, Teacher Training, Plantation and Agriculture were also launched under his guidance. Shifting of the Engineering Faculty to the present premises at Kotahena and the opening of the Wadduwa branch of Aquinas College of Higher Studies are some noteworthy events that took place during the period of Very Rev. Fr. Placidus De Silva. He also took the initiative to build the Diamond Jubilee Wing in 2014.</p>
       </div>
       <div class="modal-footer">

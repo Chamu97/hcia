@@ -7,7 +7,7 @@ include('db/dbcon.php');
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Lecturers</title>
+    <title>Academic Staff</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- favicon
@@ -89,7 +89,7 @@ include('db/dbcon.php');
                               </li>
                               <li><a href="index.php" style="color: #a4b2a8;"><i class="notika-icon notika-house"></i> Home</a>
                               </li>
-                              <li><a href="lecturers.php" style="color: #a4b2a8;"><i class="notika-icon notika-edit"></i> Lecturers' Details</a>
+                              <li><a href="lecturers.php" style="color: #a4b2a8;"><i class="notika-icon notika-edit"></i> Academic Staff Details</a>
                               </li>
                           </ul>
                           <div class="tab-content custom-menu-content">
@@ -187,7 +187,7 @@ include('db/dbcon.php');
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="data-table-list">
                         <div class="basic-tb-hd">
-                            <h2 class="text-center">Lecturers</h2>
+                            <h2 class="text-center">Academic Staff</h2>
                         </div>
                         <div class="table-responsive">
                             <table id="data-table-basic" class="table table-striped">

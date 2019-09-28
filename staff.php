@@ -44,58 +44,79 @@
             </div>
           </div>
         </div>
-        <div class="container" style="padding-left: 100px;">
+        <div class="container" style="position: center;">
           <div class="row">
 
             <ul class="list-unstyled">
-              <div class="col-md-10" style="border: solid 1px #eee;">
+              <div class="col-md-12">
                 <li class="media my-2">
-                  <img class="mr-4 rounded-circle" src="img/man.png" style="width: 150px;">
-                  <div class="media-body">
-                    <h5 class="mt-3 mb-1">List-based media object</h5>
-                    Cras sit amet nibh libero, in gravida nulla. Nulla vel mk bcffngfkgcfkgfkgkgfketus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                    <br><br>  <a href="profile.php" class="btn btn-primary">View Profile</a>
+                  <img class="mr-3 rounded-circle" src="img/man.png" style="width: 150px;">
+                  <div class="media-body" style="border: solid 1px #eee; padding: 10px;">
+                    <h3 class="mt-3 mb-1"><b>Mr. Madhawa Herath</b></h3>
+                    <h4>Assistant Lecturer</h4>
+                    <br><a href="profile.php" class="btn btn-primary">View Profile</a>
+                  </div>
+                  <img class="mr-3 rounded-circle" src="img/man.png" style="width: 150px;">
+                  <div class="media-body" style="border: solid 1px #eee; padding: 10px;">
+                    <h3 class="mt-3 mb-1"><b>Mr. Mahesha Kapurubandara</b></h3>
+                    <h4>Assistant Lecturer</h4>
+                    <br><a href="profile.php" class="btn btn-primary">View Profile</a>
                   </div>
                 </li>
               </div>
               <br>
-              <div class="col-md-10" style="border: solid 1px #eee;">
-                <li class="media my-2">
-                  <img class="mr-4 rounded-circle" src="img/fe.jpg" style="width: 150px;">
-                  <div class="media-body">
-                    <h5 class="mt-3 mb-1">List-based media object</h5>
-                    Cras sit amet nibh libero, in gravida nulla. Nulla vel mk bcffngfkgcfkgfkgkgfketus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                    <br><br>  <a href="profile.php" class="btn btn-primary">View Profile</a>
-                  </div>
-                </li>
-              </div>
-              <br>
-              <div class="col-md-10" style="border: solid 1px #eee;">
-                <li class="media my-2">
-                  <img class="mr-4 rounded-circle" src="img/man.png" style="width: 150px;">
-                  <div class="media-body">
-                    <h5 class="mt-3 mb-1">List-based media object</h5>
-                    Cras sit amet nibh libero, in gravida nulla. Nulla vel mk bcffngfkgcfkgfkgkgfketus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                    <br><br>  <a href="profile.php" class="btn btn-primary">View Profile</a>
-                  </div>
-                </li>
-              </div>
-              <br>
-              <div class="col-md-10" style="border: solid 1px #eee;">
+              <div class="col-md-12">
                 <li class="media my-2">
                   <img class="mr-4 rounded-circle" src="img/fe.jpg" style="width: 150px;">
-                  <div class="media-body">
-                    <h5 class="mt-3 mb-1">List-based media object</h5>
-                    Cras sit amet nibh libero, in gravida nulla. Nulla vel mk bcffngfkgcfkgfkgkgfketus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                    <br><br>  <a href="profile.php" class="btn btn-primary">View Profile</a>
+                  <div class="media-body" style="border: solid 1px #eee; padding: 10px;">
+                    <h3 class="mt-3 mb-1"><b>Ms. Indrani Siriwardena</b></h3>
+                    <h4>Assistant Lecturer</h4>
+                    <br><a href="profile.php" class="btn btn-primary">View Profile</a>
+                  </div>
+                  <img class="mr-4 rounded-circle" src="img/man.png" style="width: 150px;">
+                  <div class="media-body" style="border: solid 1px #eee; padding: 10px;">
+                    <h3 class="mt-3 mb-1"><b>Mr. Padmakumara Navaratne</b></h3>
+                    <h4>Assistant Lecturer</h4>
+                    <br><a href="profile.php" class="btn btn-primary">View Profile</a>
                   </div>
                 </li>
               </div>
               <br>
-            </ul>
-          </div>
+              <div class="col-md-12">
+                <li class="media my-2">
+                  <img class="mr-3 rounded-circle" src="img/man.png" style="width: 150px;">
+                  <div class="media-body" style="border: solid 1px #eee; padding: 10px;">
+                    <h3 class="mt-3 mb-1"><b>Mr. Nishan Silva</b></h3>
+                    <h4>Assistant Lecturer</h4>
+                    <br><a href="profile.php" class="btn btn-primary">View Profile</a>
+                  </div>
+                  <img class="mr-3 rounded-circle" src="img/fe.jpg" style="width: 150px;">
+                  <div class="media-body" style="border: solid 1px #eee; padding: 10px;">
+                    <h3 class="mt-3 mb-1"><b>Ms. Gayashika Fernando</b></h3>
+                    <h4>Senior Lecturer</h4>
+                    <br><a href="profile.php" class="btn btn-primary">View Profile</a>
+                  </div>
+                </li>
+              </div>
+              <br>
+              <div class="col-md-12">
+                <li class="media my-2">
+                  <img class="mr-4 rounded-circle" src="img/man.png" style="width: 150px;">
+                  <div class="media-body" style="border: solid 1px #eee; padding: 10px;">
+                    <h3 class="mt-3 mb-1"><b>Mr. Nuwan Kuruwitaarachchi</b></h3>
+                    <h4>Senior Lecturer</h4>
+                    <br><a href="profile.php" class="btn btn-primary">View Profile</a>
+                  </div>
+                  <img class="mr-4 rounded-circle" src="img/man.png" style="width: 150px;">
+                  <div class="media-body" style="border: solid 1px #eee; padding: 10px;">
+                    <h3 class="mt-3 mb-1"><b>Mr. Nalaka R. Dissanayake</b></h3>
+                    <h4>Senior Lecturer</h4>
+                    <br><a href="profile.php" class="btn btn-primary">View Profile</a>
+                  </div>
+                </li>
+              </div>
 
-
+<br>
 
           <nav aria-label="Page navigation example">
             <ul class="pagination justify-content-center">
