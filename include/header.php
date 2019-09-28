@@ -28,11 +28,11 @@
                     </ul>
                   </div>
                   <div class="col-md-6 col-lg-3">
-                    <h5>COURSES</h5>
+                    <h5><a href="programs.php">COURSES</a></h5>
                     <ul class="list-unstyled mb-3">
-                      <li class="nav-item"><a href="#" class="nav-link">Degree Programs</a></li>
-                      <li class="nav-item"><a href="#" class="nav-link">Diploma Programs</a></li>
-                      <li class="nav-item"><a href="#" class="nav-link">Certificate Programs</a></li>
+                      <li class="nav-item"><a href="degrees.php" class="nav-link">Degree Programs</a></li>
+                      <li class="nav-item"><a href="diplomas.php" class="nav-link">Diploma Programs</a></li>
+                      <li class="nav-item"><a href="certificates.php" class="nav-link">Certificate Programs</a></li>
                     </ul>
                   </div>
                   <div class="col-md-6 col-lg-3">
@@ -45,23 +45,26 @@
               </li>
             </ul>
           </li>
-          <li class="nav-item"><a href="#" class="nav-link">NEWS & EVENTS</a></li>
+          <li class="nav-item"><a href="news_and_events.php" class="nav-link">NEWS & EVENTS</a></li>
           <li class="nav-item"><a href="#" class="nav-link">CONTACT US</a></li>
         </ul>
         <div class="navbar-buttons d-flex justify-content-end">
           <!-- /.nav-collapse-->
-          <div id="basket-overview" class="navbar-collapse collapse d-none d-lg-block"><a href="login.php" class="btn btn-primary navbar-btn"><i class="fa fa-user"></i><span>Login</span></a></div>
+          
+          <div id="search-not-mobile" class="navbar-collapse collapse"></div><a data-toggle="collapse" href="#search" class="btn navbar-btn btn-primary d-none d-lg-inline-block"><span class="sr-only">Toggle search</span><i class="fa fa-search"></i></a>
+          <div id="basket-overview" class="navbar-collapse collapse d-none d-lg-block"><a href="#" class="btn btn-primary navbar-btn"><i class="fa fa-user"></i><span>Login</span></a></div>
+
         </div>
       </div>
     </div>
   </nav>
   <div id="search" class="collapse">
     <div class="container">
-      <form role="search" class="ml-auto">
+      <form role="search" class="ml-auto" method="post" action="search-result-view.php">
         <div class="input-group">
-          <input type="text" placeholder="Search" class="form-control">
+          <input type="text" placeholder="Search" class="form-control" name="search_value" required>
           <div class="input-group-append">
-            <button type="button" class="btn btn-primary"><i class="fa fa-search"></i></button>
+            <button type="button" class="btn btn-primary" name="search_button"><i class="fa fa-search"></i></button>
           </div>
         </div>
       </form>
