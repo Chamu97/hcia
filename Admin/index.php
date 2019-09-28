@@ -85,6 +85,8 @@
                      </li>
                      <li><a href="lecturers.php" style="color: #a4b2a8;"><i class="notika-icon notika-edit"></i> Academic Staff Details</a>
                      </li>
+                     <li><a href="books/index.php" style="color: #a4b2a8;"><i class="notika-icon notika-edit"></i>References</a>
+                     </li>
                  </ul>
                  <div class="tab-content custom-menu-content">
                    <div id="log" class="tab-pane in notika-tab-menu-bg animated flipInX">
