@@ -68,7 +68,7 @@
                                             <input type="text" name="index_number" id="index_number" maxlength="8" class="form-control" style="height:40px;"><p></p>
                     <p id="index_number_alert" class="error" style="color: red">
                     </p><p>                       <!-- <input type="button" id="btn_search1" class="btn btn-success" value="SUBMIT" style=" margin: 0 auto; display: block">-->
-                    	<button type="submit" class="btn btn-success" formaction="Show_Result.php" style=" margin: 0 auto; display: block" >SUBMIT</button>
+                    	<button type="submit" class="btn btn-success" formaction="../Show_Result.php" style=" margin: 0 auto; display: block" >SUBMIT</button>
                                         </p></div>
 
 
