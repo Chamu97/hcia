@@ -10,3 +10,85 @@
   /*  UPDATED! front pane, placed above back */
   /* back, initially hidden pane */
 }
+
+/*html scroll*/
+html {
+  scroll-behavior: smooth;
+}
+
+/*course details page*/
+h2.course-details {
+    color: #005b06;
+    font-size: 18px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 6px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+/*course details page hedding border styles*/
+.uvc-headings-line {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+
+
+span.border-style {
+    border-style: solid;
+    border-bottom-width: 3px;
+    border-color: rgb(237, 186, 33);
+    width: 100px;
+    margin: 0px auto;
+}
+
+/*title margin style*/
+h2.title.title-style {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: #005b06
+}
+
+/*programs page contetnt margine style*/
+.col-md-10.col-md-offset-1.column-style {
+    text-align: center;
+    margin-left: 94px;
+}
+
+/*card style in programs.php page*/
+.card.card-style {
+    margin-bottom: 94px;
+    margin-top: 30px;
+}
+
+/*card-body-image in news and events*/
+img.card-image {
+    height: 150px;
+    width: 240px;
+}
+
+/*news body alagin in news and events*/
+.card.news-body-style {
+    left: 250px;
+}
+
+/*news view image style*/
+img.news-view-img-style {
+    width: 800px;
+}
+
+/*news detals news and event page*/
+h2.news-details {
+    color: #005b06;
+    font-size: 33px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 6px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.row.image-row-style {
+    margin-left: 50px;
+}

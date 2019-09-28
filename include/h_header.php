@@ -30,9 +30,9 @@
                   <div class="col-md-6 col-lg-3">
                     <h5>COURSES</h5>
                     <ul class="list-unstyled mb-3">
-                      <li class="nav-item"><a href="#" class="nav-link">Degree Programs</a></li>
-                      <li class="nav-item"><a href="#" class="nav-link">Diploma Programs</a></li>
-                      <li class="nav-item"><a href="#" class="nav-link">Certificate Programs</a></li>
+                      <li class="nav-item"><a href="degrees.php" class="nav-link">Degree Programs</a></li>
+                      <li class="nav-item"><a href="diplomas.php" class="nav-link">Diploma Programs</a></li>
+                      <li class="nav-item"><a href="certificates.php" class="nav-link">Certificate Programs</a></li>
                     </ul>
                   </div>
                   <div class="col-md-6 col-lg-3">
@@ -59,6 +59,7 @@
         <div class="navbar-buttons d-flex justify-content-end">
           <!-- /.nav-collapse-->
           <div id="search-not-mobile" class="navbar-collapse collapse"></div><a data-toggle="collapse" href="#search" class="btn navbar-btn btn-primary d-none d-lg-inline-block"><span class="sr-only">Toggle search</span><i class="fa fa-search"></i></a>
+          
         </div>
       </div>
     </div>
