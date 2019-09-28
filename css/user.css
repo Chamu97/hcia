@@ -1,0 +1,165 @@
+body{
+  background: url(../images/Untitled-1.jpg)no-repeat ;
+	position:relative;
+	font-family: 'Open Sans', sans-serif;
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;
+  transition: 5s;
+}
+
+p{
+  color : white;
+  line-height: 1.4;
+}
+
+
+a:link {
+    color: blue;
+}
+a:visited {
+    color: blue;
+}
+a:hover {
+    color: #f44336;
+}
+
+h2{
+  color :  #f44336;
+}
+
+.btn {
+	width: 100%;
+  border: 4px solid #f44336;
+  background: rgba(0, 0, 0, 0.0);
+  padding: 8px 0px;
+  font-size: 18px;
+  cursor: pointer;
+  border-color: #f44336;
+  color: white;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-color:  #f44336;
+  color: white;
+}
+
+.bttn{
+
+  width: 49%;
+  border: 4px solid #f44336;
+  background: rgba(0, 0, 0, 0.0);
+  padding: 8px 0px;
+  font-size: 18px;
+  cursor: pointer;
+  border-color: #f44336;
+  color: white;
+  transition: 0.5s;
+
+}
+
+.bttn:hover {
+  background-color:  #f44336;
+  color: white;
+}
+
+.header {
+	width: 30%;
+	margin: 50px auto 0px;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+
+.bbb{
+  background: rgba(0, 0, 0, 0.5);
+  width: 650px;
+  float : left;
+  position: fixed;
+  //margin: 0px auto;
+  //height : 80%;
+  //text-align: center;
+  //margin: 100px 0px 0px 350px;
+  top:100px;
+  right:350px;
+  //left:350px;
+}
+
+.bb {
+	width: 350px;
+	//margin: 10px auto;
+	//padding: 20px;
+  float : left;
+  //background: rgba(0, 0, 0, 0.5);
+}
+
+.input-group {
+	margin: 30px 30px 0px 30px;
+}
+
+
+.input-groupp input {
+	height: 40px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 10px;
+	border: 1px solid gray;
+  transition: 0.8s;
+}
+
+.input-group label {
+	display: block;
+	text-align: left;
+	margin: 3px;
+  color : white;
+}
+
+.input-group input {
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 0px;
+	border: 0px solid gray;
+  transition: 0.5s;
+}
+
+
+.right-section{
+    width: 300px;
+    float: left;
+    background: url(../images/a.jpg)no-repeat;
+    background-size: cover;
+    min-height: 460px;
+    //position: relative;
+    //top: 0;
+    //right: 0;
+}
+
+.error {
+	color: white;
+	background: rgba(244, 67, 54, 0.7);
+  font-size: 20px;
+}
+
+
+.Rerror{
+    position: absolute;
+    width: 300px;
+    padding-top: 45px;
+}
+
+.strength{
+  width: 250px;
+  height: 12px;
+  float: right;
+
+}
+
+.st{
+  color: white;
+  float: left;
+  font-size: 12px;
+}

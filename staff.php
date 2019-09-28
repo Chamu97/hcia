@@ -28,7 +28,7 @@
 </head>
 <body>
   <!-- Header -->
-  <?php include 'include/header.php'; ?>
+  <?php include 'include/h_header.php'; ?>
 
 
   <div id="all">
@@ -54,13 +54,13 @@
                   <div class="media-body" style="border: solid 1px #eee; padding: 10px;">
                     <h3 class="mt-3 mb-1"><b>Mr. Madhawa Herath</b></h3>
                     <h4>Assistant Lecturer</h4>
-                    <br><a href="profile.php" class="btn btn-primary">View Profile</a>
+                    <br><a href="profile_ac.php" class="btn btn-primary">View Profile</a>
                   </div>
                   <img class="mr-3 rounded-circle" src="img/man.png" style="width: 150px;">
                   <div class="media-body" style="border: solid 1px #eee; padding: 10px;">
                     <h3 class="mt-3 mb-1"><b>Mr. Mahesha Kapurubandara</b></h3>
                     <h4>Assistant Lecturer</h4>
-                    <br><a href="profile.php" class="btn btn-primary">View Profile</a>
+                    <br><a href="profile_ac.php" class="btn btn-primary">View Profile</a>
                   </div>
                 </li>
               </div>
@@ -71,13 +71,13 @@
                   <div class="media-body" style="border: solid 1px #eee; padding: 10px;">
                     <h3 class="mt-3 mb-1"><b>Ms. Indrani Siriwardena</b></h3>
                     <h4>Assistant Lecturer</h4>
-                    <br><a href="profile.php" class="btn btn-primary">View Profile</a>
+                    <br><a href="profile_ac.php" class="btn btn-primary">View Profile</a>
                   </div>
                   <img class="mr-4 rounded-circle" src="img/man.png" style="width: 150px;">
                   <div class="media-body" style="border: solid 1px #eee; padding: 10px;">
                     <h3 class="mt-3 mb-1"><b>Mr. Padmakumara Navaratne</b></h3>
                     <h4>Assistant Lecturer</h4>
-                    <br><a href="profile.php" class="btn btn-primary">View Profile</a>
+                    <br><a href="profile_ac.php" class="btn btn-primary">View Profile</a>
                   </div>
                 </li>
               </div>
@@ -88,13 +88,13 @@
                   <div class="media-body" style="border: solid 1px #eee; padding: 10px;">
                     <h3 class="mt-3 mb-1"><b>Mr. Nishan Silva</b></h3>
                     <h4>Assistant Lecturer</h4>
-                    <br><a href="profile.php" class="btn btn-primary">View Profile</a>
+                    <br><a href="profile_ac.php" class="btn btn-primary">View Profile</a>
                   </div>
                   <img class="mr-3 rounded-circle" src="img/fe.jpg" style="width: 150px;">
                   <div class="media-body" style="border: solid 1px #eee; padding: 10px;">
                     <h3 class="mt-3 mb-1"><b>Ms. Gayashika Fernando</b></h3>
                     <h4>Senior Lecturer</h4>
-                    <br><a href="profile.php" class="btn btn-primary">View Profile</a>
+                    <br><a href="profile_ac.php" class="btn btn-primary">View Profile</a>
                   </div>
                 </li>
               </div>
@@ -105,13 +105,13 @@
                   <div class="media-body" style="border: solid 1px #eee; padding: 10px;">
                     <h3 class="mt-3 mb-1"><b>Mr. Nuwan Kuruwitaarachchi</b></h3>
                     <h4>Senior Lecturer</h4>
-                    <br><a href="profile.php" class="btn btn-primary">View Profile</a>
+                    <br><a href="profile_ac.php" class="btn btn-primary">View Profile</a>
                   </div>
                   <img class="mr-4 rounded-circle" src="img/man.png" style="width: 150px;">
                   <div class="media-body" style="border: solid 1px #eee; padding: 10px;">
                     <h3 class="mt-3 mb-1"><b>Mr. Nalaka R. Dissanayake</b></h3>
                     <h4>Senior Lecturer</h4>
-                    <br><a href="profile.php" class="btn btn-primary">View Profile</a>
+                    <br><a href="profile_ac.php" class="btn btn-primary">View Profile</a>
                   </div>
                 </li>
               </div>

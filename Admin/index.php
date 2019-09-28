@@ -90,7 +90,7 @@
                    <div id="log" class="tab-pane in notika-tab-menu-bg animated flipInX">
                      <ul class="notika-main-menu-dropdown">
                        <li><a href="#">My Profile</a></li>
-                       <li><a href="logout.php">Sign Out</a></li>
+                       <li><a href="../index.php">Sign Out</a></li>
                      </ul>
                    </div>
              </div>

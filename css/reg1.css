@@ -1,0 +1,45 @@
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ff5347;
+  opacity : 0.4;
+  color: black;
+}
+
+input.invalid::-webkit-input-placeholder {
+  color: black;
+}
+
+
+/* The message box is shown when the user clicks on the password field */
+.msg {
+  display:none;
+}
+
+.msg p {
+  font-size: 14px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+  padding-left: 30px;
+}
+
+.valid:before {
+  position: relative;
+  left: -10px;
+  content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+  color: #f44336;
+  padding-left: 30px;
+
+}
+
+.invalid:before {
+  position: relative;
+  left: -10px;
+  content: "✖";
+}

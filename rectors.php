@@ -28,7 +28,7 @@
 </head>
 <body>
   <!-- Header -->
-  <?php include 'include/header.php'; ?>
+  <?php include 'include/h_header.php'; ?>
 
 
   <div id="all">

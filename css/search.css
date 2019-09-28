@@ -1,0 +1,16 @@
+#myInput {
+  background-image: url('../images/search1.png');
+  background-position: 5px 5px;
+  background-repeat: no-repeat;
+  font-size: 14px;
+  padding: 7px 20px 7px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+.s{
+font-size: 14px;
+padding: 7px 10px 7px 10px;
+border: 1px solid #ddd;
+margin-bottom: 12px;
+}

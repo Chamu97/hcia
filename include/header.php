@@ -41,13 +41,6 @@
                       <li class="nav-item"><a href="#" class="nav-link">Additional Readings</a></li>
                     </ul>
                   </div>
-                  <div class="col-md-6 col-lg-3">
-                    <h5>STUDENT LIFE</h5>
-                    <ul class="list-unstyled mb-3">
-                      <li class="nav-item"><a href="#" class="nav-link">Results</a></li>
-                      <li class="nav-item"><a href="#" class="nav-link">Time Tables</a></li>
-                    </ul>
-                  </div>
                 </div>
               </li>
             </ul>
@@ -57,8 +50,7 @@
         </ul>
         <div class="navbar-buttons d-flex justify-content-end">
           <!-- /.nav-collapse-->
-          <div id="search-not-mobile" class="navbar-collapse collapse"></div><a data-toggle="collapse" href="#search" class="btn navbar-btn btn-primary d-none d-lg-inline-block"><span class="sr-only">Toggle search</span><i class="fa fa-search"></i></a>
-          <div id="basket-overview" class="navbar-collapse collapse d-none d-lg-block"><a href="#" class="btn btn-primary navbar-btn"><i class="fa fa-user"></i><span>Login</span></a></div>
+          <div id="basket-overview" class="navbar-collapse collapse d-none d-lg-block"><a href="login.php" class="btn btn-primary navbar-btn"><i class="fa fa-user"></i><span>Login</span></a></div>
         </div>
       </div>
     </div>

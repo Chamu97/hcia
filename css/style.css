@@ -1,0 +1,36 @@
+body{
+  background: url(../images/Untitled-1.jpg)no-repeat;
+	position:relative;
+	font-family: 'Open Sans', sans-serif;
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;
+  transition: 2s;
+}
+
+b{
+color:red;
+font-weight:700;
+font-size:16px
+}
+
+.success{
+color:green;
+display:block;
+font-weight:700
+}
+
+.error{
+color:red
+}
+.header {
+	width: 30%;
+	margin: 50px auto 0px;
+	color: white;
+	background: #5F9EA0;
+	text-align: center;
+	border: 1px solid #B0C4DE;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+}

@@ -1,0 +1,77 @@
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ff5347;
+  opacity : 0.4;
+  color: black;
+}
+
+input.invalid::-webkit-input-placeholder {
+  color: black;
+}
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #f44336;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.4;
+}
+
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #f44336;
+}
+
+/* The message box is shown when the user clicks on the password field */
+.msg {
+  display:none;
+  width : 290px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  position: absolute;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.msg p {
+  font-size: 17px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+  padding-left: 30px;
+}
+
+.valid:before {
+  position: relative;
+  left: -10px;
+  content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+  color: #f44336;
+  padding-left: 30px;
+
+}
+
+.invalid:before {
+  position: relative;
+  left: -10px;
+  content: "✖";
+}
