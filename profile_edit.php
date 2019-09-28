@@ -104,7 +104,7 @@
 															</ul>
                         </li>
                         <li>
-                            <a href="logout.php">
+                            <a href="index.php">
                                 <p>Log out</p>
                             </a>
                         </li>

@@ -38,7 +38,7 @@
                   <div class="col-md-6 col-lg-3">
                     <h5>E-LIBRARY</h5>
                     <ul class="list-unstyled mb-3">
-                      <li class="nav-item"><a href="#" class="nav-link">Additional Readings</a></li>
+                      <li class="nav-item"><a href="library.php" class="nav-link">Additional Readings</a></li>
                     </ul>
                   </div>
                 </div>

@@ -47,7 +47,7 @@
 
 
 
-    
+
     ?>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -215,7 +215,7 @@
         <a class="nav-item nav-link text-dark fas fa-home  " style="margin-right:50px"href="#">Home</a>
         <a class="nav-item nav-link nav-link text-dark far fa-folder " style="margin-right:50px" href="ViewCourses.php">History Of Materials Added</a>
         <a class="nav-item nav-link nav-link text-dark fas fa-arrow-circle-left " href="./Main.php">Back</a></div>
-        <a class="nav-item nav-link nav-link text-dark fas fa-arrow-right " href="#">Sign out</a></div>
+        <a class="nav-item nav-link nav-link text-dark fas fa-arrow-right " href="../index.php">Sign out</a></div>
 
 
 
@@ -239,5 +239,3 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
-
-

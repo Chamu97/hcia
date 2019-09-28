@@ -26,7 +26,7 @@
   <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
 </head>
-<body>
+<body style="background-color:green">
   <!-- navbar-->
 
   <!-- Header -->
@@ -35,10 +35,11 @@
   <div class="col-md-12">
   <div class="box slideshow">
   <h3>Your Success is Our Goal...!</h3>
-  <p class="lead">At Aquinas College of Higher Studies we strive to educate our students not only by knowledge but also spiritually, socially and psychologically to ensure that our students are catalysts in ensuring the creation of disciplined socially conscious and morally committed intellectuals.</p>
+  <p class="lead" style="color:green;">At Aquinas College of Higher Studies we strive to educate our students not only by knowledge but also spiritually, socially and psychologically to ensure that our students are catalysts in ensuring the creation of disciplined socially conscious and morally committed intellectuals.</p>
   <div id="get-inspired" class="owl-carousel owl-theme">
     <div class="item"><a href="#"><img src="img/main-slider2.jpg"  class="img-fluid"></a></div>
     <div class="item"><a href="#"><img src="img/main-slider3.jpg"  class="img-fluid"></a></div>
+    <div class="item"><a href="#"><img src="img/img2.jpg"  class="img-fluid"></a></div>
   </div>
   </div>
   </div>
@@ -142,7 +143,7 @@
     <div class="container">
       <div class="col-md-12">
         <h3 class="text-uppercase">Aquinas Research Symposium - 2020</h3>
-        <p class="lead mb-0"><a href="symposium _ Aquinas College of Higher Studies.php">Click Here...!</a></p>
+        <p class="lead mb-0" style="font-size:2vw;"><a href="symposium _ Aquinas College of Higher Studies.php">Click Here...!</a></p>
       </div>
     </div>
   </div>

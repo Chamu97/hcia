@@ -66,11 +66,11 @@
         <thead>
         <tr>
             <th class="text-primary" scope="col">NAME</th>
-            <th  class="text-primary" scope="col">MODULE</th>
+            <th class="text-primary" scope="col">MODULE</th>
 
         </tr>
         </thead>
-        <tbody>
+        <tr>
         <tr>
 
             <?php
@@ -80,40 +80,30 @@
             }
 
             $sql = "SELECT * FROM materials";
-            if($result = mysqli_query($connection, $sql)){
-                if(mysqli_num_rows($result) > 0){
+            $result = mysqli_query($connection, $sql);
 
-                    while($row = mysqli_fetch_array($result)){
-                        echo "<td>" . $row['name'] . "</td>";
-                        echo "<td>" . $row['module'] . "</td>";
-                        echo "</tr>";
-                    }
-                    echo "</table>";
-                    // Free result set
-                    mysqli_free_result($result);
-                } else{
-                    echo "No records matching your query were found.";
-                }
-            } else{
-                echo "ERROR: Could not able to execute $sql. " . mysqli_error($connection);
-            }
+            while($row = mysqli_fetch_array($result)){ ?>
+            <tr>
+                <td><?php echo $row['name']; ?></td>
+                <td><?php echo $row['module']; ?></td>
+                <td><a href="update.php" class="btn btn-warning">Edit</a></td>
+                <td><a href="#" class="btn btn-danger">Delete</a></td>
+            </tr>
 
-
-            ?>
-
-
+         <?php   }  ?>
+        </tr>
         </tbody>
     </table>
 
 
 
-    <td><a href="update.php?update_id=<?php echo $row['id']; ?>" class="btn btn-warning">Edit</a></td>
-    <td><a href="?delete_id=<?php echo $row['id']; ?>" class="btn btn-danger">Delete</a></td>
+<!--    <td><a href="update.php?update_id=--><?php //echo $row['id']; ?><!--" class="btn btn-warning">Edit</a></td>-->
+<!--    <td><a href="?delete_id=--><?php //echo $row['id']; ?><!--" class="btn btn-danger">Delete</a></td>-->
 
 
     <a type="button" class="btn btn-outline-dark" href="AddCourseMaterials.php">Back</a>
 
-
+</div>
 
 <div class="footer text-secondary " >
     <p>COPYRIGHT @ 2019 ALL RIGHTS RESERVED </p>

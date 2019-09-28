@@ -32,7 +32,7 @@
 		    	<div class="sidebar-wrapper">
 		            <div class="logo">
 		                <a href="index.php" class="simple-text">
-		                    <b>Princess Park</b>
+		                    <b>Aquinas</b>
 		                </a>
 		            </div>
 
@@ -50,7 +50,7 @@
 		                    </a>
 		                </li>
 		                <li>
-		                    <a href="profile_table.php">
+		                    <a href="#">
 		                        <i class="pe-7s-note2"></i>
 		                        <p>Delete Profile</p>
 		                    </a>
@@ -79,7 +79,7 @@
 		                <div class="collapse navbar-collapse">
 		                    <ul class="nav navbar-nav navbar-left">
 		                        <li><a>
-																<p style="color:#f44336"><?php echo $fname = "Akila";?> <?php echo $lname = "Kasun";?></p>
+																<p style="color:#f44336"><?php echo $fname = "Chami";?> <?php echo $lname = "Muthukumarana";?></p>
 														 </a>
 		                        </li>
 		                    </ul>

@@ -32,7 +32,7 @@
 		    	<div class="sidebar-wrapper">
 		            <div class="logo">
 		                <a href="index.php" class="simple-text">
-		                    <b>Aqvinas Profile/b>
+		                    <b>Aqvinas Profile</b>
 		                </a>
 		            </div>
 
