@@ -15,34 +15,34 @@ include('db_dinuka/dbcon.php');
 ?>
 
 
-<!--------------------------------------------------------------> 
+<!-------------------------------------------------------------->
             <!-- Programs data retrivel by dinuka 2019/09/13 -->
           <!-------------------------------------------------------------->
           <?php
           if(isset($_GET['did'])){
-           
-            $program_id = $_GET['did'];  
+
+            $program_id = $_GET['did'];
             // $query = "SELECT * FROM degrees WHERE degree_id = '$degrees_id'";
             $query = "SELECT * FROM all_programs WHERE program_id = '$program_id'";
-          
+
           }
           // elseif (isset($_GET['dipid'])) {
-          
+
           //   $diplomas_id = $_GET['dipid'];
           //   $query = "SELECT * FROM diplomas WHERE diploma_id = '$diplomas_id'";
-          
+
           // }elseif (isset($_GET['cid'])) {
-          
+
           //   $certificates_id = $_GET['cid'];
           //   $query = "SELECT * FROM certificates WHERE certificate_id = '$certificates_id'";
-          
+
           // }
-          
-   
+
+
           // $query = "SELECT * FROM degrees WHERE degree_id = '$degrees_id'";
           $get_details = $db->query($query);
           $program_details = mysqli_fetch_assoc($get_details);
-          
+
           // print_r($program_details);
 
           ?>
@@ -61,7 +61,7 @@ include('db_dinuka/dbcon.php');
   <meta name="robots" content="all,follow">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-   
+
     <?php if($program_details['program_category'] == 'DEGREE PROGRAMS'){
 
       $title1 = 'Degree Programs';
@@ -77,11 +77,11 @@ include('db_dinuka/dbcon.php');
       $title1 = 'Certificate Programs';
       $title2 = $program_details['program_name'];
 
-    } 
+    }
     ?>
 
     <title><?php echo $title1; ?> || <?php echo $title2; ?></title>
-    
+
   <!-- Google font -->
   <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet"> -->
 
@@ -106,7 +106,7 @@ include('db_dinuka/dbcon.php');
   <!--    hover stylesheet-->
     <!-- <link type="text/css" rel="stylesheet" href="css/hover.css"> -->
 
-    <!---------------------------------This is new template styles ----------------------------------------> 
+    <!---------------------------------This is new template styles ---------------------------------------->
 
 
   <!-- Bootstrap CSS-->
@@ -123,10 +123,10 @@ include('db_dinuka/dbcon.php');
   <!-- Custom stylesheet - for your changes-->
   <link rel="stylesheet" href="css/custom.css">
   <!-- Favicon-->
-  <link rel="shortcut icon" href="favicon.ico"> 
+  <link rel="shortcut icon" href="favicon.ico">
 
-  <!---------------------------------End of new template styles ----------------------------------------> 
-    
+  <!---------------------------------End of new template styles ---------------------------------------->
+
 
 
 </head>
@@ -141,15 +141,15 @@ include('db_dinuka/dbcon.php');
         <?php if(isset($_GET['did'])){ ?>
 
             <h1 style="font-weight: normal; color: #005b06;font-size: -webkit-xxx-large;"><?php echo $program_details['program_name']; ?></h1>
-                  
+
         <?php }elseif (isset($_GET['dipid'])) {  ?>
-                    
+
             <h1 style="font-weight: normal; color: #005b06;font-size: -webkit-xxx-large;"><?php echo $program_details['diploma_name']; ?></h1>
-                  
+
         <?php }elseif (isset($_GET['cid'])) {  ?>
-                    
+
             <h1 style="font-weight: normal; color: #005b06;font-size: -webkit-xxx-large;"><?php echo $program_details['certificate_name']; ?></h1>
-                  
+
         <?php }  ?>
 
           <span class="border-style"></span>
@@ -163,115 +163,115 @@ include('db_dinuka/dbcon.php');
                   if($program_details['program_objective']){
 
                     $objectives     = $program_details['program_objective'];
-                  
+
                   }
                   if($program_details['program_requirements']){
 
                     $requirements     = $program_details['program_requirements'];
-                  
+
                   }
                   if($program_details['program_qualifications']){
 
                     $qualifications     = $program_details['program_qualifications'];
-                  
+
                   }
                   if($program_details['program_duration']){
 
                     $duration     = $program_details['program_duration'];
-                  
+
                   }
                   if($program_details['program_schedule']){
 
                     $schedule     = $program_details['program_schedule'];
-                  
+
                   }
                   if($program_details['program_fees']){
 
                     $fees     = $program_details['program_fees'];
-                  
+
                   }
                   if($program_details['program_registration']){
 
                     $registration     = $program_details['program_registration'];
-                  
+
                   }
                   if($program_details['program_intake']){
 
                     $intake     = $program_details['program_intake'];
-                  
+
                   }
                   if($program_details['program_lecturer']){
 
                     $lecturer     = $program_details['program_lecturer'];
-                  
+
                   }
 
                 }elseif (isset($_GET['dipid'])) {
-                  
+
                   if($program_details['diploma_objectives']){
 
                     $objectives     = $program_details['diploma_objectives'];
-                  
+
                   }
                   if($program_details['diploma_requirements']){
 
                     $requirements     = $program_details['diploma_requirements'];
-                  
+
                   }
 
                   if($program_details['diploma_duration']){
 
                     $duration     = $program_details['diploma_duration'];
-                  
+
                   }
                   if($program_details['diploma_schedule']){
 
                     $schedule     = $program_details['diploma_schedule'];
-                  
+
                   }
                   if($program_details['diploma_fees']){
 
                     $fees     = $program_details['diploma_fees'];
-                  
-                  }                                    
+
+                  }
                   if($program_details['diploma_contact']){
 
                     $contact     = $program_details['diploma_contact'];
-                  
+
                   }
 
                 }elseif (isset($_GET['cid'])) {
-                  
+
                   if($program_details['certificate_objectives']){
 
                     $objectives     = $program_details['certificate_objectives'];
-                  
+
                   }
                   if($program_details['certificate_requirements']){
 
                     $requirements     = $program_details['certificate_requirements'];
-                  
-                  }                  
+
+                  }
                   if($program_details['certificate_duration']){
 
                     $duration     = $program_details['certificate_duration'];
-                  
+
                   }
                   if($program_details['certificate_schedule']){
 
                     $schedule     = $program_details['certificate_schedule'];
-                  
+
                   }
                   if($program_details['certificate_fees']){
 
                     $fees     = $program_details['certificate_fees'];
-                  
+
                   }
                   if($program_details['certificate_contact']){
 
                     $contact     = $program_details['certificate_contact'];
-                  
-                  }                                    
+
+                  }
 
                 }
                 ?>
@@ -279,80 +279,80 @@ include('db_dinuka/dbcon.php');
           <?php if(isset($objectives)){ ?>
                   <h2 class="course-details">
                     Objectives
-                  </h2>                
-                  <p><?php echo $objectives; ?></p>                
+                  </h2>
+                  <p><?php echo $objectives; ?></p>
                   <p>&nbsp;</p>
             <?php } ?>
 
-        <?php if(isset($requirements)){ ?>    
+        <?php if(isset($requirements)){ ?>
                 <h2 class="course-details">
                   Entry Requirements
-                </h2>                
-                <p><?php echo $requirements; ?></p>                
+                </h2>
+                <p><?php echo $requirements; ?></p>
                 <p>&nbsp;</p>
-        <?php } ?>    
+        <?php } ?>
 
-        <?php if(isset($qualifications)){ ?>     
+        <?php if(isset($qualifications)){ ?>
                 <h2 class="course-details">
                   Educational Qualifications
-                </h2>                
-                <p><?php echo $qualifications; ?></p>                
+                </h2>
+                <p><?php echo $qualifications; ?></p>
                 <p>&nbsp;</p>
-          <?php } ?>    
+          <?php } ?>
 
-          <?php if(isset($duration)){ ?>    
+          <?php if(isset($duration)){ ?>
                 <h2 class="course-details">
                   Programme Duration
-                </h2>                
-                <p><?php echo $duration; ?></p>                
+                </h2>
+                <p><?php echo $duration; ?></p>
                 <p>&nbsp;</p>
-          <?php } ?>   
+          <?php } ?>
 
-        <?php if(isset($schedule)){ ?>    
+        <?php if(isset($schedule)){ ?>
                 <h2 class="course-details">
                   Programme Schedule
-                </h2>                
-                <p><?php echo $schedule; ?></p>               
+                </h2>
+                <p><?php echo $schedule; ?></p>
                 <p>&nbsp;</p>
-          <?php } ?>    
+          <?php } ?>
 
-        <?php if(isset($fees)){ ?>     
+        <?php if(isset($fees)){ ?>
                 <h2 class="course-details">
-                  Course Fees  
-                </h2>                
-                <p><?php echo $fees; ?></p>                
+                  Course Fees
+                </h2>
+                <p><?php echo $fees; ?></p>
                 <p>&nbsp;</p>
-          <?php } ?>   
+          <?php } ?>
 
-        <?php if(isset($registration)){ ?>    
+        <?php if(isset($registration)){ ?>
                 <h2 class="course-details">
-                  Registration   
-                </h2>                
-                <p><?php echo $registration; ?></p>                
+                  Registration
+                </h2>
+                <p><?php echo $registration; ?></p>
                 <p>&nbsp;</p>
-        <?php } ?>   
+        <?php } ?>
 
-        <?php if(isset($intake)){ ?>    
+        <?php if(isset($intake)){ ?>
                 <h2 class="course-details">
-                  Intake  
-                </h2>                
-                <p><?php echo $intake; ?></p>                
+                  Intake
+                </h2>
+                <p><?php echo $intake; ?></p>
                 <p>&nbsp;</p>
-        <?php } ?> 
+        <?php } ?>
 
       <?php if(isset($lecturer)){ ?>
                 <h2 class="course-details">
-                  Lecturer In Charge  
-                </h2>                
-                <p><?php echo $lecturer; ?></p>              
+                  Lecturer In Charge
+                </h2>
+                <p><?php echo $lecturer; ?></p>
                 <p>&nbsp;</p>
       <?php } ?>
 
       <?php if(isset($contact)){ ?>
                 <h2 class="course-details">
-                  Contact Us  
-                </h2>                
-                <p><?php echo $contact; ?></p>              
+                  Contact Us
+                </h2>
+                <p><?php echo $contact; ?></p>
                 <p>&nbsp;</p>
       <?php } ?>
               </div>
@@ -384,11 +384,19 @@ include('db_dinuka/dbcon.php');
         <!-- /Preloader -->
 
         <!-- jQuery Plugins -->
-        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <!-- <script type="text/javascript" src="js/jquery.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/owl.carousel.min.js"></script>
         <script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
-        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/main.js"></script> -->
+
+        <!-- ---------------New template plugins and scripts--------------------------------->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+        <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+        <script src="vendor/owl.carousel2.thumbs/owl.carousel2.thumbs.js"></script>
+        <script src="js/front.js"></script>
 
         <script>
        $(document).ready(function(){

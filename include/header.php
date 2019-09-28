@@ -9,7 +9,7 @@
     <div class="container"><a href="index.html" class="navbar-brand home"><span class="sr-only">go to homepage</span></a>
       <div class="navbar-buttons">
         <button type="button" data-toggle="collapse" data-target="#navigation" class="btn btn-outline-secondary navbar-toggler"><span class="sr-only">Toggle navigation</span><i class="fa fa-align-justify"></i></button>
-        <button type="button" data-toggle="collapse" data-target="#search" class="btn btn-outline-secondary navbar-toggler"><span class="sr-only">Toggle search</span><i class="fa fa-search"></i></button><a href="#" class="btn btn-outline-secondary navbar-toggler"><i class="fa fa-user"></i></a>
+        <button type="button" data-toggle="collapse" data-target="#search" class="btn btn-outline-secondary navbar-toggler"><span class="sr-only">Toggle search</span><i class="fa fa-search"></i></button><a href="login.php" class="btn btn-outline-secondary navbar-toggler"><i class="fa fa-user"></i></a>
       </div>
       <div id="navigation" class="collapse navbar-collapse">
         <ul class="navbar-nav mr-auto">
