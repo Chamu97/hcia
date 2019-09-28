@@ -15,21 +15,21 @@ include('db_dinuka/dbcon.php');
 ?>
 
 
-<!--------------------------------------------------------------> 
+<!-------------------------------------------------------------->
             <!-- Programs data retrivel by dinuka 2019/09/13 -->
           <!-------------------------------------------------------------->
           <?php
           // if(isset($_GET['did'])){
-           
-          //   $program_id = $_GET['did'];  
+
+          //   $program_id = $_GET['did'];
           //   // $query = "SELECT * FROM degrees WHERE degree_id = '$degrees_id'";
           //   $query = "SELECT * FROM all_programs WHERE program_id = '$program_id'";
-          
+
           // }
-          
+
           // $get_details = $db->query($query);
           // $program_details = mysqli_fetch_assoc($get_details);
-          
+
           // print_r($program_details);
 
           ?>
@@ -48,10 +48,10 @@ include('db_dinuka/dbcon.php');
   <meta name="robots" content="all,follow">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-  
+
 
     <title>News And Events</title>
-    
+
   <!-- Google font -->
   <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet"> -->
 
@@ -76,7 +76,7 @@ include('db_dinuka/dbcon.php');
   <!--    hover stylesheet-->
     <!-- <link type="text/css" rel="stylesheet" href="css/hover.css"> -->
 
-    <!---------------------------------This is new template styles ----------------------------------------> 
+    <!---------------------------------This is new template styles ---------------------------------------->
 
 
   <!-- Bootstrap CSS-->
@@ -93,17 +93,17 @@ include('db_dinuka/dbcon.php');
   <!-- Custom stylesheet - for your changes-->
   <link rel="stylesheet" href="css/custom.css">
   <!-- Favicon-->
-  <link rel="shortcut icon" href="favicon.ico"> 
+  <link rel="shortcut icon" href="favicon.ico">
 
-  <!---------------------------------End of new template styles ----------------------------------------> 
-    
+  <!---------------------------------End of new template styles ---------------------------------------->
+
 
 
 </head>
 
 <body>
   <!-- Header -->
-  <?php include 'include/header.php'; ?>
+  <?php include 'include/h_header.php'; ?>
       <!-- /Header -->
 
       <!-- Contact -->
@@ -111,15 +111,15 @@ include('db_dinuka/dbcon.php');
         <?php if(isset($_GET['did'])){ ?>
 
             <h1 style="font-weight: normal; color: #005b06;font-size: -webkit-xxx-large;"><?php echo $program_details['program_name']; ?></h1>
-                  
+
         <?php }elseif (isset($_GET['dipid'])) {  ?>
-                    
+
             <h1 style="font-weight: normal; color: #005b06;font-size: -webkit-xxx-large;"><?php echo $program_details['diploma_name']; ?></h1>
-                  
+
         <?php }elseif (isset($_GET['cid'])) {  ?>
-                    
+
             <h1 style="font-weight: normal; color: #005b06;font-size: -webkit-xxx-large;"><?php echo $program_details['certificate_name']; ?></h1>
-                  
+
         <?php }  ?>
 
           <!-- <span class="border-style"></span> -->
@@ -127,31 +127,31 @@ include('db_dinuka/dbcon.php');
           <div class="container-fluid">
           <div class="col-sm-12 col-lg-12 col-xl-8">
             <div class="card news-body-style">
-              <div class="card-body">                
+              <div class="card-body">
 
                 <h2 class="news-details">
-                  Research on Peace and Reconciliation  
+                  Research on Peace and Reconciliation
                 </h2>
                 <p>&nbsp;</p>
                 <img src="https://www.aquinas.lk/file/2019/09/PR-Project-2019-2-825x340.jpg" class="news-view-img-style">
-                <p>&nbsp;</p>                
+                <p>&nbsp;</p>
                 <p>The Aquinas Research Centre, established on 01 June 2018, will take up its debut research project in October 2019 making it a red-letter day in the history of Aquinas College of Higher Studies. The study focuses on Peace and Reconciliation in the Western Province of Sri Lanka during the Post-War Period; 2010-2019. Reconciliation stands for a long term process by which the parties open to violent dispute build up trust, learn to live corporately and create solid peace. The Aquinas Research Centre believes this as a timely need to be addressed.</p>
 
- 
+
 
 <p>With the initiative underpinned by Rev. Fr. Mahendra Gunatilleke – National Director of Caritas Sri Lanka – The Social & Economic Development Centre (CSL-SEDEC), an initial discussion was held on 19 June 2019 chaired by Very Rev. Dr. Susith Mark Lal Silva – Rector / Vice-Chancellor of Aquinas College. The MOU was signed between Aquinas College and CSL-SEDEC, on 02 August 2019, laying the cornerstone of the research project.</p>
 
- 
+
 
 <p>The proposed research will operate in three phases namely in Kalutara, Colombo and Gampaha Districts. Three Divisional Secretary’s Divisions from each District and four Grama Niladhari Divisions will be selected to provide a platform for the study.</p>
 
- 
+
 
 <p>The main objective of this research is to get an understanding of the awareness of the people on Peace and Reconciliation in the Western Province. The selected study will also explore sub-objectives such as; to know the reconciliation level, find out the barriers and identify the solutions to improve the peace and reconciliation process.</p>
 
- 
 
-<p>The Research Team consists of Very Rev. Dr. Susith Mark Lal Silva – Rector / Vice-Chancellor of Aquinas College, Dr. Susantha Dissanayake – Chief Coordinator for Research, Department Head of Humanities, Research Coordinators and twenty undergraduates of the college as Research Assistants.</p>              
+
+<p>The Research Team consists of Very Rev. Dr. Susith Mark Lal Silva – Rector / Vice-Chancellor of Aquinas College, Dr. Susantha Dissanayake – Chief Coordinator for Research, Department Head of Humanities, Research Coordinators and twenty undergraduates of the college as Research Assistants.</p>
                 <p>&nbsp;</p>
               </div>
             </div>
@@ -161,7 +161,7 @@ include('db_dinuka/dbcon.php');
       </div>
         <!-- /Contact -->
 
-
+<br>
         <!-- Footer -->
         <?php include 'include/footer.php'; ?>
         <!-- /Footer -->

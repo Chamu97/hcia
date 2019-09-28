@@ -50,9 +50,9 @@
         </ul>
         <div class="navbar-buttons d-flex justify-content-end">
           <!-- /.nav-collapse-->
-          
+
           <div id="search-not-mobile" class="navbar-collapse collapse"></div><a data-toggle="collapse" href="#search" class="btn navbar-btn btn-primary d-none d-lg-inline-block"><span class="sr-only">Toggle search</span><i class="fa fa-search"></i></a>
-          <div id="basket-overview" class="navbar-collapse collapse d-none d-lg-block"><a href="#" class="btn btn-primary navbar-btn"><i class="fa fa-user"></i><span>Login</span></a></div>
+          <div id="basket-overview" class="navbar-collapse collapse d-none d-lg-block"><a href="login.php" class="btn btn-primary navbar-btn"><i class="fa fa-user"></i><span>Login</span></a></div>
 
         </div>
       </div>

@@ -29,7 +29,7 @@
   <!-- Google font -->
   <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet"> -->
 
-  <!-- Font Awesome --> 
+  <!-- Font Awesome -->
 <!--   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" type="text/css" rel="stylesheet">
  -->
@@ -55,7 +55,7 @@
     <!-- <link type="text/css" rel="stylesheet" href="css/hover.css"> -->
     <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"> -->
 
-    <!---------------------------------This is new template styles ----------------------------------------> 
+    <!---------------------------------This is new template styles ---------------------------------------->
 
 
   <!-- Bootstrap CSS-->
@@ -72,14 +72,14 @@
   <!-- Custom stylesheet - for your changes-->
   <link rel="stylesheet" href="css/custom.css">
   <!-- Favicon-->
-  <link rel="shortcut icon" href="favicon.ico"> 
+  <link rel="shortcut icon" href="favicon.ico">
 
 
 </head>
 
 <body>
   <!-- Header -->
-  <?php include 'include/header.php'; ?>
+  <?php include 'include/h_header.php'; ?>
       <!-- /Header -->
       <div class="section-header text-center">
           <h2 class="title title-style">All Programs</h2>
@@ -97,7 +97,7 @@
                         <p class="white-text"><a href="degrees.php" class="btn btn-success">Diploma Programs</a></p>
                         <p class="white-text"><a href="degrees.php" class="btn btn-success">Certificate Programs</a></p>
                       </div>
-                    </div>      
+                    </div>
                   </div>
                 </div>
               </div>

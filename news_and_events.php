@@ -51,7 +51,7 @@
     <link type="text/css" rel="stylesheet" href="css/hover.css">
     <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"> -->
 
-    <!---------------------------------This is new template styles ----------------------------------------> 
+    <!---------------------------------This is new template styles ---------------------------------------->
 
 
   <!-- Bootstrap CSS-->
@@ -68,20 +68,20 @@
   <!-- Custom stylesheet - for your changes-->
   <link rel="stylesheet" href="css/custom.css">
   <!-- Favicon-->
-  <link rel="shortcut icon" href="favicon.ico"> 
+  <link rel="shortcut icon" href="favicon.ico">
 
-  <!---------------------------------End of new template styles ----------------------------------------> 
+  <!---------------------------------End of new template styles ---------------------------------------->
 
 
 </head>
 
 <body>
   <!-- Header -->
-  <?php include 'include/header.php'; ?>
+  <?php include 'include/h_header.php'; ?>
       <!-- /Header -->
 
       <div class="section-header text-left">
-          <h2 class="title title-style">News And Events</h2>
+          <h2 class="title title-style text-center">News And Events</h2>
           <span class="border-style"></span>
       </div>
       <!-- Contact -->
@@ -93,13 +93,13 @@
               <div class="card-body">
                 <div>
                   <img src="https://www.aquinas.lk/wp-content/uploads/2019/09/PR-Project-2019-2-1024x682.jpg" class="card-image">
-                  <p>&nbsp;</p>                  
+                  <p>&nbsp;</p>
                   <p>Research on Peace and Reconciliation</p>
                   <p><a href="news_and_events_view.php" class="btn btn-primary">Read More <i class="fa fa-arrow-right"></i>
                   </a></p>
-                  
+
                 </div>
-              </div>              
+              </div>
             </div>
           </div>
 
@@ -108,13 +108,13 @@
               <div class="card-body">
                 <div>
                   <img src="https://www.aquinas.lk/wp-content/uploads/2019/07/DSC_7377-1024x683.jpg" class="card-image">
-                  <p>&nbsp;</p>                  
+                  <p>&nbsp;</p>
                   <p>Aquinas College celebrates the achievements of over 1000 students</p>
                   <p><a href="#" class="btn btn-primary">Read More <i class="fa fa-arrow-right"></i>
                   </a></p>
 
                 </div>
-              </div>              
+              </div>
             </div>
           </div>
 
@@ -123,12 +123,12 @@
               <div class="card-body">
                 <div>
                   <img src="https://www.aquinas.lk/wp-content/uploads/2019/07/DSC_6670-1024x683.jpg" class="card-image">
-                  <p>&nbsp;</p>                  
+                  <p>&nbsp;</p>
                   <p>Importance of English language echoed</p>
                   <p><a href="#" class="btn btn-primary">Read More <i class="fa fa-arrow-right"></i>
                   </a></p>
                 </div>
-              </div>              
+              </div>
             </div>
           </div>
 
@@ -137,12 +137,12 @@
               <div class="card-body">
                 <div>
                   <img src="https://www.aquinas.lk/wp-content/uploads/2019/04/President-and-members-of-the-Rotary-Club-of-Whitburn-1024x576.jpg" class="card-image">
-                  <p>&nbsp;</p>                  
+                  <p>&nbsp;</p>
                   <p>ROTARY JOINS HANDS WITH AQUINAS COLLEGE OF HIGHER STUDIES</p>
                   <p><a href="#" class="btn btn-primary">Read More <i class="fa fa-arrow-right"></i>
                   </a></p>
                 </div>
-              </div>              
+              </div>
             </div>
           </div>
         </div>
@@ -153,12 +153,12 @@
               <div class="card-body">
                 <div>
                   <img src="https://www.aquinas.lk/wp-content/uploads/2018/12/Cover-1024x422.jpg" class="card-image">
-                  <p>&nbsp;</p>                  
+                  <p>&nbsp;</p>
                   <p>Convocation Ceremony and Award Ceremonies 2018</p>
                   <p><a href="#" class="btn btn-primary">Read More <i class="fa fa-arrow-right"></i>
                   </a></p>
                 </div>
-              </div>              
+              </div>
             </div>
           </div>
 
@@ -167,12 +167,12 @@
               <div class="card-body">
                 <div>
                   <img src="https://www.aquinas.lk/wp-content/uploads/2018/09/Aquinas-Sports-day-2018-1024x422.jpg" class="card-image">
-                  <p>&nbsp;</p>                  
+                  <p>&nbsp;</p>
                   <p>AQUINAS Sports Fiesta 2018</p>
                   <p><a href="#" class="btn btn-primary">Read More <i class="fa fa-arrow-right"></i>
                   </a></p>
                 </div>
-              </div>              
+              </div>
             </div>
           </div>
 
@@ -181,12 +181,12 @@
               <div class="card-body">
                 <div>
                   <img src="https://www.aquinas.lk/wp-content/uploads/2018/05/Kokila-wasanthaya-1024x422.jpg" class="card-image">
-                  <p>&nbsp;</p>                  
+                  <p>&nbsp;</p>
                   <p>Kokila Wasanthaya 2018</p>
                   <p><a href="#" class="btn btn-primary">Read More <i class="fa fa-arrow-right"></i>
                   </a></p>
                 </div>
-              </div>              
+              </div>
             </div>
           </div>
 
@@ -195,12 +195,12 @@
               <div class="card-body">
                 <div>
                   <img src="https://www.aquinas.lk/wp-content/uploads/2018/01/6.jpg" class="card-image">
-                  <p>&nbsp;</p>                  
+                  <p>&nbsp;</p>
                   <p>Opening of the Academic Year 2018</p>
                   <p><a href="#" class="btn btn-primary">Read More <i class="fa fa-arrow-right"></i>
                   </a></p>
                 </div>
-              </div>              
+              </div>
             </div>
           </div>
 
@@ -211,12 +211,12 @@
               <div class="card-body">
                 <div>
                   <img src="https://www.aquinas.lk/wp-content/uploads/2017/11/18-1024x683.jpg" class="card-image">
-                  <p>&nbsp;</p>                  
+                  <p>&nbsp;</p>
                   <p>Diploma Catholic Education & Teacher Training Programme</p>
                   <p><a href="#" class="btn btn-primary">Read More <i class="fa fa-arrow-right"></i>
                   </a></p>
                 </div>
-              </div>              
+              </div>
             </div>
           </div>
 
@@ -225,19 +225,19 @@
               <div class="card-body">
                 <div>
                   <img src="https://www.aquinas.lk/wp-content/uploads/2017/11/12-1024x408.jpg" class="card-image">
-                  <p>&nbsp;</p>                  
+                  <p>&nbsp;</p>
                   <p>Convocation Ceremony 2017</p>
                   <p><a href="#" class="btn btn-primary">Read More <i class="fa fa-arrow-right"></i>
                   </a></p>
                 </div>
-              </div>              
+              </div>
             </div>
           </div>
-        </div>   
+        </div>
 
       </div>
 
-  
+
 
         <!-- /Contact -->
 

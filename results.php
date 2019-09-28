@@ -8,26 +8,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="all,follow">
   <!-- Bootstrap CSS-->
-  <link rel="stylesheet" href="../vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
   <!-- Font Awesome CSS-->
-  <link rel="stylesheet" href="../vendor/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
   <!-- Google fonts - Roboto -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700">
   <!-- owl carousel-->
-  <link rel="stylesheet" href="../vendor/owl.carousel/assets/owl.carousel.css">
-  <link rel="stylesheet" href="../vendor/owl.carousel/assets/owl.theme.default.css">
+  <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.css">
+  <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.css">
   <!-- theme stylesheet-->
-  <link rel="stylesheet" href="../css/style.green.css" id="theme-stylesheet">
+  <link rel="stylesheet" href="css/style.green.css" id="theme-stylesheet">
   <!-- Custom stylesheet - for your changes-->
-  <link rel="stylesheet" href="../css/custom.css">
+  <link rel="stylesheet" href="css/custom.css">
   <!-- Favicon-->
-  <link rel="shortcut icon" href="../favicon.ico">
+  <link rel="shortcut icon" href="favicon.ico">
   <!-- Tweaks for older IEs--><!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
 </head>
 <body>
-<?php include '../include/h_header.php'; ?>
+<?php include 'include/h_header.php'; ?>
 
 
 
@@ -68,7 +68,7 @@
                                             <input type="text" name="index_number" id="index_number" maxlength="8" class="form-control" style="height:40px;"><p></p>
                     <p id="index_number_alert" class="error" style="color: red">
                     </p><p>                       <!-- <input type="button" id="btn_search1" class="btn btn-success" value="SUBMIT" style=" margin: 0 auto; display: block">-->
-                    	<button type="submit" class="btn btn-success" formaction="../Show_Result.php" style=" margin: 0 auto; display: block" >SUBMIT</button>
+                    	<button type="submit" class="btn btn-success" formaction="Show_Result.php" style=" margin: 0 auto; display: block" >SUBMIT</button>
                                         </p></div>
 
 
@@ -107,7 +107,7 @@
 
 </div>
 <!-- Footer -->
-<?php include '../include/footer.php'; ?>
+<?php include 'include/footer.php'; ?>
 
 </div>
 <script type="text/javascript" src="https://www.aquinas.lk/other/js/jquery/ui/core.min.js"></script>

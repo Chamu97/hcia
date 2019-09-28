@@ -9,7 +9,7 @@
     <div class="container"><a href="index.html" class="navbar-brand home"><span class="sr-only">go to homepage</span></a>
       <div class="navbar-buttons">
         <button type="button" data-toggle="collapse" data-target="#navigation" class="btn btn-outline-secondary navbar-toggler"><span class="sr-only">Toggle navigation</span><i class="fa fa-align-justify"></i></button>
-        <button type="button" data-toggle="collapse" data-target="#search" class="btn btn-outline-secondary navbar-toggler"><span class="sr-only">Toggle search</span><i class="fa fa-search"></i></button><a href="#" class="btn btn-outline-secondary navbar-toggler"><i class="fa fa-user"></i></a>
+        <button type="button" data-toggle="collapse" data-target="#search" class="btn btn-outline-secondary navbar-toggler"><span class="sr-only">Toggle search</span><i class="fa fa-search"></i></button><a href="index.php" class="btn btn-outline-secondary navbar-toggler"><i class="fa fa-sign-out"></i></a>
       </div>
       <div id="navigation" class="collapse navbar-collapse">
         <ul class="navbar-nav mr-auto">
@@ -28,7 +28,7 @@
                     </ul>
                   </div>
                   <div class="col-md-6 col-lg-3">
-                    <h5>COURSES</h5>
+                    <h5><a href="programs.php">COURSES</a></h5>
                     <ul class="list-unstyled mb-3">
                       <li class="nav-item"><a href="degrees.php" class="nav-link">Degree Programs</a></li>
                       <li class="nav-item"><a href="diplomas.php" class="nav-link">Diploma Programs</a></li>
@@ -38,14 +38,14 @@
                   <div class="col-md-6 col-lg-3">
                     <h5>E-LIBRARY</h5>
                     <ul class="list-unstyled mb-3">
-                      <li class="nav-item"><a href="#" class="nav-link">Additional Readings</a></li>
+                      <li class="nav-item"><a href="library.php" class="nav-link">Additional Readings</a></li>
                     </ul>
                   </div>
                   <div class="col-md-6 col-lg-3">
                     <h5>STUDENT LIFE</h5>
                     <ul class="list-unstyled mb-3">
                       <li class="nav-item"><a href="profile.php" class="nav-link">My Profile</a></li>
-                      <li class="nav-item"><a href="Result/index.php" class="nav-link">Results</a></li>
+                      <li class="nav-item"><a href="results.php" class="nav-link">Results</a></li>
                       <li class="nav-item"><a href="#" class="nav-link">Time Tables</a></li>
                     </ul>
                   </div>
@@ -53,13 +53,13 @@
               </li>
             </ul>
           </li>
-          <li class="nav-item"><a href="#" class="nav-link">NEWS & EVENTS</a></li>
+          <li class="nav-item"><a href="news_and_events.php" class="nav-link">NEWS & EVENTS</a></li>
           <li class="nav-item"><a href="#" class="nav-link">CONTACT US</a></li>
         </ul>
         <div class="navbar-buttons d-flex justify-content-end">
           <!-- /.nav-collapse-->
           <div id="search-not-mobile" class="navbar-collapse collapse"></div><a data-toggle="collapse" href="#search" class="btn navbar-btn btn-primary d-none d-lg-inline-block"><span class="sr-only">Toggle search</span><i class="fa fa-search"></i></a>
-          
+          <div id="basket-overview" class="navbar-collapse collapse d-none d-lg-block"><a href="index.php" class="btn btn-primary navbar-btn"><i class="fa fa-sign-out"></i><span>Logout</span></a></div>
         </div>
       </div>
     </div>

@@ -51,7 +51,7 @@ include('db_dinuka/dbcon.php');
     <link type="text/css" rel="stylesheet" href="css/hover.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
-    <!---------------------------------This is new template styles ----------------------------------------> 
+    <!---------------------------------This is new template styles ---------------------------------------->
 
 
   <!-- Bootstrap CSS-->
@@ -68,9 +68,9 @@ include('db_dinuka/dbcon.php');
   <!-- Custom stylesheet - for your changes-->
   <link rel="stylesheet" href="css/custom.css">
   <!-- Favicon-->
-  <link rel="shortcut icon" href="favicon.ico"> 
+  <link rel="shortcut icon" href="favicon.ico">
 
-  <!---------------------------------End of new template styles ----------------------------------------> 
+  <!---------------------------------End of new template styles ---------------------------------------->
 
 
 
@@ -78,7 +78,7 @@ include('db_dinuka/dbcon.php');
 
 <body>
   <!-- Header -->
-  <?php include 'include/header.php'; ?>
+  <?php include 'include/h_header.php'; ?>
   <!-- /Header -->
 
       <!-- Contact -->
@@ -100,21 +100,21 @@ include('db_dinuka/dbcon.php');
                 <?php
                 if(isset($_POST['search'])){
 
-                    $search = $_POST['search'];                    
-                    
+                    $search = $_POST['search'];
+
                     if($search != ''){
 
                       // $sql1 = " SELECT * FROM degrees WHERE degree_name LIKE '%".$search."%' OR degree_code LIKE '%".$search."%'";
                       $sql1 = " SELECT * FROM all_programs WHERE program_category  = 'CERTIFICATE PROGRAMS' AND program_name LIKE '%".$search."%' OR program_code LIKE '%".$search."%'";
                       $search_results = filterTable($sql1);
-                      //$search_results = mysqli_query($db,$sql1);  
+                      //$search_results = mysqli_query($db,$sql1);
                     }else{
 
                        $sql1 = "SELECT * FROM all_programs WHERE program_category  = 'CERTIFICATE PROGRAMS'";
                     // $sql1 = " SELECT * FROM all_programs WHERE program_category  = 'DEGREE PROGRAMS'";
                         $search_results = filterTable($sql1);
                     }
-                    
+
                 }else{
 
                         $sql1 = "SELECT * FROM all_programs WHERE program_category  = 'CERTIFICATE PROGRAMS'";
@@ -130,7 +130,7 @@ include('db_dinuka/dbcon.php');
 
                 }
                 ?>
-        
+
               <!--        Hover Search bar-->
                 <div>
                 <form method="post" name="search_bar" class="search-bar-form">
@@ -162,7 +162,7 @@ include('db_dinuka/dbcon.php');
                                     <?php while ($cs = mysqli_fetch_assoc($search_results)) { ?>
                                     <tr>
 
-                                      <td class="text-left">                                    
+                                      <td class="text-left">
                                         <p><?php echo $cs['program_code'].' - '.' '.$cs['program_name']; ?></p>
                                       </td>
                                       <td>
